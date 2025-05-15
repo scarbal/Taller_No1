@@ -1,0 +1,64 @@
+/* App.css */
+
+/* Estilos generales para la aplicación */
+
+.min-h-screen {
+  min-height: 100vh;
+  background-color: #f3f4f6; /* gris claro */
+}
+
+.dark .min-h-screen {
+  background-color: #1f2937; /* gris oscuro */
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.dark .bg-gray-100 {
+  background-color: #1f2937;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.text-gray-600 {
+  color: #4b5563;
+}
+
+.dark .text-gray-600 {
+  color: #d1d5db; /* texto claro en modo oscuro */
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+

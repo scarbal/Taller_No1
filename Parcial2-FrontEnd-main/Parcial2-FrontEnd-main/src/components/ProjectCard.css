@@ -1,0 +1,145 @@
+/* src/components/ProjectCard.css */
+
+.project-card-container {
+    max-width: 650px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .dark .project-card-container {
+    background-color: #1f2937;
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.05);
+  }
+  
+  .project-card-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+  }
+  
+  .dark .project-card-title {
+    color: #f3f4f6;
+    border-color: #374151;
+  }
+  
+  .project-card-section {
+    margin-bottom: 1rem;
+  }
+  
+  .project-card-section strong {
+    display: block;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0.25rem;
+  }
+  
+  .dark .project-card-section strong {
+    color: #e5e7eb;
+  }
+  
+  .project-card-section p {
+    color: #4b5563;
+    line-height: 1.5;
+  }
+  
+  .dark .project-card-section p {
+    color: #d1d5db;
+  }
+  
+  .project-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+  }
+  
+  .project-card-tags span {
+    background-color: #e2e8f0;
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    color: #1f2937;
+  }
+  
+  .dark .project-card-tags span {
+    background-color: #4b5563;
+    color: #f9fafb;
+  }
+  
+  .project-card-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .project-card-members span {
+    background-color: #f3f4f6;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+  }
+  
+  .dark .project-card-members span {
+    background-color: #374151;
+    color: #f9fafb;
+  }
+  
+  .project-card-stats {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #4b5563;
+  }
+  
+  .dark .project-card-stats {
+    color: #d1d5db;
+  }
+  
+  .project-card-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+  }
+  
+  .project-card-close-btn {
+    background-color: #e02424;
+    color: white;
+    padding: 0.5rem 1.25rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+  
+  .project-card-close-btn:hover {
+    background-color: #b91c1c;
+  }
+  .project-card-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .project-card-link:hover {
+    text-decoration: underline;
+    color: #1d4ed8;
+  }
+  
+  .dark .project-card-link {
+    color: #93c5fd;
+  }
+  
+  .dark .project-card-link:hover {
+    color: #60a5fa;
+  }
+  
